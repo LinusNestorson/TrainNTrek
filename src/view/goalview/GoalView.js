@@ -24,8 +24,8 @@ const GoalView = () => {
                         <GoalResult />
                     </div>
                 </section>
+                <Footer />
             </div>
-            <Footer />
         </>
     )
 }

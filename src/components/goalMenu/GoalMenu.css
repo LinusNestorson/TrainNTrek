@@ -1,7 +1,7 @@
 .dropdownMenu {
   display: inline-block;
-  height: 4vh;
-  width: 8vw;
+  height: 5vh;
+  width: auto;
   color: var(--clr-navy-blue);
   border: solid var(--clr-black) 2px;
   border-radius: 0.2em;
@@ -24,17 +24,13 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  justify-content: center;
   background-color: var(--clr-grey-background);
-  width: 8vw;
+  width: auto;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  border-radius: 0.4em;
-  padding: 8px 16px;
+  border-radius: 0.2em;
+  padding: 12px 16px;
   z-index: 1;
-}
-
-.list {
-  padding: 0;
+  gap: 1em;
 }
 
 .listbtn {

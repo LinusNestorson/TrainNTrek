@@ -7,9 +7,9 @@ const GoalResult = () => {
     return (
 
         <div className="dropdownMenu">
-            <p>Activities</p>
+            <p>Activity Menu</p>
             <div className="dropdown-content">
-                <ul className="list">
+                <ul>
                     <li><button className="listbtn" onClick=""> Running </button></li>
                     <li><button className="listbtn" onClick=""> Cyckling </button></li>
                     <li><button className="listbtn" onClick=""> Hiking </button></li>

@@ -2,13 +2,12 @@
   display: flex;
   text-align: center;
   justify-content: center;
-  min-height: 32vw;
+  min-height: 30vw;
 }
 
 .searchContainer {
   align-items: center;
   justify-content: center;
-  margin-bottom: 0;
 }
 
 h1 {
@@ -20,14 +19,14 @@ h1 {
 }
 
 .search-btn {
-  width: 10vw;
+  width: 20vw;
   height: auto;
   color: var(--clr-navy-blue);
   border: solid var(--clr-black) 2px;
-  border-radius: 1vw;
-  margin: 0 auto;
+  border-radius: 1em;
+  margin: auto;
   cursor: pointer;
-  font-size: 2vw;
+  font-size: 4vw;
   margin-bottom: 2vh;
   background-color: var(--clr-grey-background);
   font-family: "Varela Round", sans-serif;

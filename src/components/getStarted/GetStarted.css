@@ -4,14 +4,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
 .view-btn {
-  width: 10vw;
-  height: 3vw;
+  width: 15vw;
+  height: auto;
   color: var(--clr-navy-blue);
   border: solid var(--clr-black) 2px;
   border-radius: 0.4em;
   margin: auto;
   cursor: pointer;
-  font-size: 2vw;
+  font-size: 3vw;
   margin-bottom: 2vh;
   background-color: var(--clr-grey-background);
   font-family: "Varela Round", sans-serif;

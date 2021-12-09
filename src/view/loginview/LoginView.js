@@ -22,9 +22,6 @@ const LoginView = () => {
       setAuthenticatedUser(username)
       history.push(RoutingPath.homeView)
     }
-    else {
-      alert("No matching user.")
-    }
   }
 
   return (
@@ -49,10 +46,10 @@ const LoginView = () => {
           </div>
           <br />
           <div className="loginButtons">
-            <button className="btnLoginView" onClick={() => login()}>
+            <button className="btn" onClick={() => login()}>
               Login
             </button>
-            <button className="btnLoginView" onClick={() => Register(username, password)}>
+            <button className="btn" onClick={() => Register(username, password)}>
               Register
             </button>
           </div>
