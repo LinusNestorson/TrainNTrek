@@ -25,12 +25,13 @@ const StatsView = () => {
             <ActivityCard />
           </div>
           <section className="statSection">
-
             <div className="stats">
               <CombinedStats />
             </div>
+            <div className="converter">
+            <UnitConverter />
+            </div>
           </section>
-          <UnitConverter />
           <Footer />
         </>
       )

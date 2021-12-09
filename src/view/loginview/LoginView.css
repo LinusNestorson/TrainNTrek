@@ -26,19 +26,19 @@
 }
 
 .loginButtons {
-  width: 100%;
+  width:100%;
   display: flex;
   gap: 5%;
 }
 
-.btn{
+.btnLoginView{
   width: 45%;  
   height: auto;
   color: var(--clr-navy-blue);
   border: solid var(--clr-black) 2px;
-  border-radius: 6px;
+  border-radius: 0.4em;
   cursor: pointer;
-  font-size: 2.5vw;
+  font-size: 2vw;
   background-color: var(--clr-grey-background);
   font-family: "Varela Round", sans-serif;
   font-weight: 800;

@@ -7,7 +7,7 @@ function footer() {
   return (
     <section className="footer">
       <h3>
-        &#169; LinNes Development Studio <br /> EST 2021
+        &#169; Andromeda Development Studio <br /> EST 2021
       </h3>
     </section>
   )

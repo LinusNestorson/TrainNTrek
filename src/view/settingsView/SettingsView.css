@@ -1,18 +1,21 @@
 .settingsView {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    font-family: "Varela Round", sans-serif;
 }
 
-h1 {
+#settingsH1 {
     text-align: center;
-    font-size: 4vw;
-    margin: 1vw 0;
+    font-size: 2.5vw;
+    margin: 0 0 1vw 0;
 }
 
-.settingsContainer {
+#settingsContainer {
     border: solid black 3px;
+    border-radius: 0.4em;
     width: 50%;
     margin: 1vw 0 0 0;
-    padding: 2vw 1vw;
+    padding: 2em 1em;
 }

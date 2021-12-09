@@ -1,20 +1,20 @@
 #settingsForm {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-  row-gap: 2vw;
-  column-gap: 1vw;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 1em;
+  column-gap: 1em;
 }
 
 .label {
-  font-size: 2rem;
-  font-weight: bold;
+  font-size: 1.5vw;
+  font-weight: 550;
   margin: 0;
 }
 
 .inputBox {
   height: 2vw;
-  width: 16vw;
+  width: 12vw;
   font-size: 1.5rem;
 }
 
@@ -33,21 +33,23 @@
   box-shadow: 0 0 10px var(--clr-navy-blue);
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
   padding: 0.5vw;
   margin: 0;
 }
 
 .gender {
   padding: 0.5vw;
-  font-size: 1.5rem;
+  font-size: 1.1vw;
 }
 
 #age,
 #length,
 #weight {
-  box-sizing: content-box;
   margin: 0;
   padding: 0;
+  box-sizing: content-box;
 }
 
 #submitBox {
@@ -61,10 +63,10 @@
   height: auto;
   color: var(--clr-navy-blue);
   border: solid var(--clr-black) 2px;
-  border-radius: 1em;
+  border-radius: 0.4em;
   margin: auto;
   cursor: pointer;
-  font-size: 2.5vw;
+  font-size: 2vw;
   margin-bottom: 2vh;
   background-color: var(--clr-grey-background);
   font-family: "Varela Round", sans-serif;
